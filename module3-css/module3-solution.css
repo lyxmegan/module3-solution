@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 30px;
+}
+/* Food LLC Name */
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: brown;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: green;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid beige;
+  background-color: #0B0B3B;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .ourMenu {
+  color: brown;
+  padding: 5px; 
+}
+
+#menu-chicken, #menu-beef, #menu-sushi {
+  width: 100%;
+  margin: 10px;
+  position: relative;
+  background-color: #D8D8D8;
+  overflow: hidden;
+}
+
+
+
+#chickenTitle span, #beefTitle span, #sushiTitle span {
+
+  position: absolute;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: blue;
+  font-weight: bold;
+}
+  .chickenFood {
+  color: black;
+  margin-top: 30px;
+  padding: 10px 10px 10px;
+}
+
+ 
+/* END HOME PAGE */
+
+/********** Desktop **********/
+@media (min-width: 1200px) {
+  #header-nav {
+    height: 80px 
+  }
+  .navbar-brand h1 {
+    font-size: 2.3em;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  #header-nav {
+    height: 70px 
+  }
+  .navbar-brand h1 {
+    font-size: 2.0em;
+  }
+  /* End Header */
+}
+
+/********** Mobile **********/
+@media  (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  #header-nav {
+    height: 60px 
+  }
+  .navbar-brand h1 {
+    font-size: 1.0em;
+  }
+}
+
+
+
